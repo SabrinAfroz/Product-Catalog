@@ -25,7 +25,7 @@ function getData(productList) {
 
         });
     } else {
-        msg.innerHTML = "No item to show";
+        msg.innerHTML = "Empty List";
     }
 }
 getData(productData);
